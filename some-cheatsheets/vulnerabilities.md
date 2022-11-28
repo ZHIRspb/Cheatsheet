@@ -6,7 +6,7 @@ LFI — это возможность использования и выполн
 
 Если с помощью hmtl-запроса можно вывести содержимое файла **/etc/passwd**, то, вероятнее всего, данная уязвимость присутствует на сервере
 
-https://ip/index.php?page=../../../../../../../../etc/passwd&#x20;
+https://ip/index.php?page=../../../../../../../../etc/passwd;
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
