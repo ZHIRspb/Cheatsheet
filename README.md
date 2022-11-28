@@ -1,5 +1,5 @@
 # 💡 Some cheatsheets
 
-## 📌[Shell Stabilisation ](some-cheatsheets/shell-stabilisation.md)
+## 📌[Shell Stabilisation](readme/shell-stabilisation.md)&#x20;
 
-## 📌 [Vulnerabilities](some-cheatsheets/vulnerabilities.md)
+## 📌 [Vulnerabilities](readme/vulnerabilities.md)
