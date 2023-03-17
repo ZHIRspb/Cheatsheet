@@ -1,10 +1,8 @@
-# 🕸 Network
-
-## OSI (Open Systems Interconnection) Model
+# OSI (Open Systems Interconnection) Model
 
 ### Сетевая модель OSI это набор правил, который описывает процесс взаимодействия устройств по сети. OSI выступает первой стандартной моделью в области сетевых коммуникаций.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Первый, физический уровень (physical layer, L1) <a href="#physical-layer" id="physical-layer"></a>
 

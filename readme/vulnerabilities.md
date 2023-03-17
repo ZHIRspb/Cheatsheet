@@ -8,7 +8,7 @@ LFI — это возможность использования и выполн
 
 `"https://ip/index.php?page=../../../../../../../../etc/passwd"`
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Следовательно, редактирование данного html-запроса позволяет нам читать содержимое различных файлов, получать обратную оболочку и т.д.
 
