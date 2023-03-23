@@ -2,7 +2,7 @@
 
 * [💡 Some cheatsheets](README.md)
   * [⚙ Shell Stabilisation](some-cheatsheets/shell-stabilisation.md)
-  * [🛡 Vulnerabilities](readme/vulnerabilities/README.md)
+  * [🛡 Vulnerabilities](readme/vulnerabilities.md)
     * [Local File Inclusion](readme/vulnerabilities/local-file-inclusion.md)
     * [SQL injection](readme/vulnerabilities/sql-injection.md)
   * [🕸 Network](readme/network/README.md)
