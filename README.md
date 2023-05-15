@@ -1,7 +1,5 @@
 # 💡 Some cheatsheets
 
-## 📌[Shell Stabilisation](readme/shell-stabilisation.md)
+## 📌[Shell Stabilisation](readme/shell-stabilisation.md)&#x20;
 
 ## 📌 [Vulnerabilities](readme/vulnerabilities.md)
-
-## 📌[Network](https://github.com/ZHIRspb/Cheatsheet/tree/main/readme/network)
