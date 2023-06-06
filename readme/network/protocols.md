@@ -34,7 +34,7 @@ TTL - максимальное время "жизни" пакета (время,
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>DHCP сообщения</p></figcaption></figure>
 
-### Назначение адресов в DHCP
+Назначение адресов в DHCP
 
 Фиксированный:
 
