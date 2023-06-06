@@ -1,6 +1,6 @@
 # Protocols
 
-IP (Internet Protocol) - межсетевой протокол
+### IP (Internet Protocol) - межсетевой протокол
 
 Цель протокола - объединение сетей, построенных с помощью разных технологий канального уровня
 
@@ -18,8 +18,74 @@ IP (Internet Protocol) - межсетевой протокол
 * Объединение сетей
 * Маршрутизация
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Формат заголовка IP-пакета</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Формат заголовка IP-пакета</p></figcaption></figure>
 
 Максимальная длина пакета - 65535 байт&#x20;
 
 TTL - максимальное время "жизни" пакета (время, в течение которого пакет может перемещаться по сети), измеряется в количестве прохождений через маршрутизатор
+
+### DHCP (Dynamic Host Configuration Protocol) - протокол динамической конфигурации хостов
+
+Протокол позволяет автоматически назначать компьютерам IP-адреса в сети
+
+Требует создания инфраструктуры (DHCP сервер)
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Получение IP-адреса с помощью DHCP-сообщений</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>DHCP сообщения</p></figcaption></figure>
+
+### Назначение адресов в DHCP
+
+Фиксированный:
+
+* Выделенный IP-адрес для каждого MAC-адреса
+
+Динамический
+
+* Выделение компьютеру любого IP-адреса из пула адресов
+
+IP-адрес выделяется DHCP клиенту на ограниченное время (час, сутки и т.д.), после окончания времени аренды IP-адрес освобождается
+
+DHCP-клиент может продлить использование IP-адреса, для этого используется сокращенная процедура получения IP-адреса
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+После окончания использования IP-адреса автоматически отправляется сообщение DHCP Release
+
+Дополнительно DHCP предоставляет:
+
+* Маску подсети
+* Маршрутизатор по умолчанию
+* Адреса DNS серверов
+* Адреса серверов времени
+* Маршруты и др.
+
+### ARP (Address Resolution Protocol) - протокол разрешения адресов
+
+Протокол позволяет определить по IP-адресу компьютера его MAC-адрес
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Формат ARP-запроса</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Формат ARP-ответа</p></figcaption></figure>
+
+В модели OSI протокол находится между канальным и сетевым уровнем
+
+### ICMP (Internet Control Message Protocol) - протокол межсетевых управляющих сообщений
+
+Используется для сообщения об ошибках в работе сети:
+
+* Получатель недоступен
+* Закончилось время жизни пакета (TTL)
+* Запрещено фрагментировать пакет
+
+А также для тестирования работы сети:&#x20;
+
+* ping (проверка доступности получателя)
+* traceroute (определение маршрута к получателю)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Формат пакета ICMP</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Типы ICMP-сообщений</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Коды ICMP-сообщений (для типа 3)</p></figcaption></figure>
+
