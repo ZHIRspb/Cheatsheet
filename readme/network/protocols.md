@@ -99,7 +99,7 @@ DHCP-клиент может продлить использование IP-ад
 * Нет гарантии доставки данных&#x20;
 * Нет гарантии сохранения порядка сообщений (датаграмм)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Формат заголовка UDP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Формат заголовка UDP</p></figcaption></figure>
 
 Преимущества UDP:
 
