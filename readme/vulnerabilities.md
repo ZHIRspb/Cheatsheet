@@ -6,6 +6,8 @@
 
 ## [Insecure direct object references (IDOR)](vulnerabilities/insecure-direct-object-references-idor.md)
 
+## [Authentication vulnerabilities](vulnerabilities/authentication-vulnerabilities.md)
+
 ##
 
 ##
