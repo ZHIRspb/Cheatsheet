@@ -6,6 +6,7 @@
     * [Local File Inclusion](readme/vulnerabilities/local-file-inclusion.md)
     * [SQL injection](readme/vulnerabilities/sql-injection.md)
     * [Insecure direct object references (IDOR)](readme/vulnerabilities/insecure-direct-object-references-idor.md)
+    * [Authentication vulnerabilities](readme/vulnerabilities/authentication-vulnerabilities.md)
   * [🕸 Network](readme/network/README.md)
     * [OSI (Open Systems Interconnection) Model](readme/network/osi-open-systems-interconnection-model.md)
     * [TCP/IP](readme/network/tcp-ip.md)

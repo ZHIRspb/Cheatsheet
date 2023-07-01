@@ -30,7 +30,7 @@ TTL - максимальное время "жизни" пакета (время,
 
 Требует создания инфраструктуры (DHCP сервер)
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Получение IP-адреса с помощью DHCP-сообщений</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Получение IP-адреса с помощью DHCP-сообщений</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>DHCP сообщения</p></figcaption></figure>
 
@@ -83,7 +83,7 @@ DHCP-клиент может продлить использование IP-ад
 * ping (проверка доступности получателя)
 * traceroute (определение маршрута к получателю)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Формат пакета ICMP</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Формат пакета ICMP</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Типы ICMP-сообщений</p></figcaption></figure>
 
@@ -121,5 +121,5 @@ DHCP-клиент может продлить использование IP-ад
 
 Перед отправкой данных по TCP требуется установить соединение
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
