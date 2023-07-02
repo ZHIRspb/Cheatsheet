@@ -8,6 +8,8 @@
 
 ## [Authentication vulnerabilities](vulnerabilities/authentication-vulnerabilities.md)
 
+## [Cross-site scripting (XSS)](vulnerabilities/cross-site-scripting.md)
+
 ##
 
 ##

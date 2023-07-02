@@ -64,7 +64,7 @@ DHCP-клиент может продлить использование IP-ад
 
 Протокол позволяет определить по IP-адресу компьютера его MAC-адрес
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Формат ARP-запроса</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Формат ARP-запроса</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Формат ARP-ответа</p></figcaption></figure>
 
@@ -87,7 +87,7 @@ DHCP-клиент может продлить использование IP-ад
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Типы ICMP-сообщений</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Коды ICMP-сообщений (для типа 3)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Коды ICMP-сообщений (для типа 3)</p></figcaption></figure>
 
 ### UDP (User Datagram Protocol) - протокол датаграмм пользователя
 
