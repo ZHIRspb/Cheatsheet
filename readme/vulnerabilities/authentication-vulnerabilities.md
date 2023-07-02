@@ -54,15 +54,15 @@
 
 Затем им назначается файл cookie, относящийся к их учетной записи, прежде чем перейти ко второму этапу процесса входа в систему:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 При отправке кода подтверждения запрос использует этот файл cookie, чтобы определить, к какой учетной записи пользователь пытается получить доступ:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 В этом случае злоумышленник может войти в систему, используя свои собственные учетные данные, но затем изменить значение файла cookie учетной записи на любое произвольное имя пользователя при отправке кода подтверждения.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 \[Это чрезвычайно опасно, если злоумышленник затем сможет взломать код подтверждения, поскольку это позволит им входить в учетные записи произвольных пользователей, полностью основываясь на их имени пользователя.
 
