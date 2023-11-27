@@ -1,4 +1,4 @@
-# ⚙ Shell Stabilisation
+# ⚙ Shell Stabilization
 
 Используя команду `which python python3` проверяем наличие языка программирования **python**
 
