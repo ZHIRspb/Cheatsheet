@@ -1,6 +1,6 @@
 # 💡 Some cheatsheets
 
-## 📌[Shell Stabilisation](readme/shell-stabilisation.md)
+## 📌[Shell Stabilization](readme/shell-stabilization.md)
 
 ## 📌 [Vulnerabilities](readme/vulnerabilities.md)
 
